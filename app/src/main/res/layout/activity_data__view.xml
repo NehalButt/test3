@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Data_View">
+ <TableLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+  <TableRow android:background="@color/teal_700" android:padding="20dp">
+   <TextView
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:text="Id"
+     android:textColor="@color/white"
+     android:textSize="18sp"
+     android:textStyle="bold"
+       android:textAlignment="center"/>
+   <TextView
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:text="Name"
+       android:textColor="@color/white"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:textAlignment="center"/>
+   <TextView
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:text="Dept"
+       android:textColor="@color/white"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:textAlignment="center"/>
+   <TextView
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:text="Salary"
+       android:textColor="@color/white"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:textAlignment="center"/>
+  </TableRow>
+  <ListView android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+      android:id="@+id/Mylist"/>
+ </TableLayout>
+</LinearLayout>
